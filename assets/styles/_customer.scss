@@ -1,0 +1,99 @@
+.customer__menu {
+    position: relative;
+    bottom: 620px;
+}
+.customer__span {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.customer__menu h2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 64px;
+    color: #1D2530;
+    padding-right: 200px;
+}
+
+.customer__menu-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    gap: 30px;
+    padding-top: 48px;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.customer__menu-item {
+    background: #FFFF;
+    border-radius: 6px;
+    padding: 32px 32px 56px;
+}
+
+.customer__menu-item:hover {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; 
+}
+
+.customer__menu-item h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #18191F;
+    padding: 22px 0 8px;
+}
+
+.customer__menu-item p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #18191F;
+}
+
+.customers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 700px;
+    gap: 100px;
+    padding-top: 28px;
+    margin: 0 auto;
+}
+
+.customers__title h4, h6{
+    position: relative;
+    bottom: 58px;
+    left: 70px;
+}
+
+.customers__title h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1D2530;
+}
+
+.customers__title h5 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1D2530;
+}
+
+.boy-2 {
+    position: relative;
+    left: 160px; 
+}
+
+.slider-item {
+    position: relative;
+    left: 670px;
+}

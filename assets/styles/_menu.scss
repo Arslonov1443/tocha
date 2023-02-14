@@ -1,0 +1,113 @@
+.header__menu-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 134px 0 0 0;
+    background: rgba(242, 247, 255, 0.5);
+    backdrop-filter: blur(50px);
+}
+
+@media only screen and (max-width: 375px) {
+.header__menu-box {
+    display: inline-block;
+    }
+
+    .header__menu-box--title p {
+        display: inline-block;
+        width: 330px;
+        height: 112px;
+        max-width: 375px; 
+        width: 80%;
+    }
+
+    .header__menu-box img {
+        width: 310px;
+        height: 246px;
+        max-width: 375px; 
+        width: 80%;
+    }
+
+    .header__menu-box--title button {
+        width: 168px;
+        height: 48px; 
+        margin: 32px 0 40px; 
+        max-width: 375px; 
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    
+    .header__menu-box--title h2{
+        display: inline-block;
+        width: 245px;
+        height: 80px;  
+        max-width: 375px; 
+        width: 80%;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 40px;
+        margin: 0 auto;
+    }
+}
+
+.header__menu-box {
+    background-image: url("..//images/bgc-img.png");
+}
+
+.header__menu-box--title {
+    padding: 0 0 0 110px;
+}
+.header__menu-box h2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.header__menu-box h2 span {
+    color: #685ED6;
+}
+
+.header__menu-box p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    color: #1D2530;
+}
+.header__menu-box p span {
+    color: #685ED6;
+}
+
+.header__menu-box button {
+    @include btn1
+}
+
+.header__menu-box--title p span:hover {
+    background: rgba(242, 247, 255, 0.5);
+    backdrop-filter: blur(50px);
+}
+
+.header__menu-box button a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.header__menu-box--img {
+    padding: 0px 120px 0 0;
+    background: rgba(242, 247, 255, 0.5);
+    backdrop-filter: blur(50px);
+}
+
+.header__menu-box--title button:hover {
+    background: #33AFE1;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.14);
+}
+
+.header__menu-box--title button:active {
+    background: #18E1F7;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.14);
+}

@@ -1,0 +1,162 @@
+.chat__menu {
+    text-align: center;
+}
+
+@media only screen and (max-width: 375px) {
+    .chat__menu-title span {
+        display: none;
+    }
+
+    .chat__menu-title img {
+        display: none;
+    }
+
+    .chat__menu-title h2 {
+        margin-left: 50px;
+    }
+
+    .chat__box-2 {
+        display: none;
+    }
+
+    .chat__item-3 {
+        display: none;
+    }
+
+    .chat__box-3 {
+        display: none;
+    }
+}
+
+.chat__menu h2{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 64px;
+    color: #1D2530;
+    padding-bottom: 40px;
+}
+
+.chat__menu-title img {
+    position: relative;
+    left: 120px;
+}
+
+.chat__span-1 {
+    background: #F1E4FF;
+    border-radius: 50%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #685ED6;
+    padding: 20px 30px;
+    position: relative;
+    right: 920px;
+    bottom: 170px;
+}
+
+.chat__span-2 {
+    background: #F1E4FF;
+    border-radius: 50%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #685ED6;
+    padding: 20px 30px;
+    position: relative;
+    right: 560px;
+    bottom: 100px;
+}
+
+.chat__span-3 {
+    background: #F1E4FF;
+    border-radius: 50%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #685ED6;
+    padding: 20px 30px;
+    position: relative;
+    right: 210px;
+    bottom: 170px;
+}
+
+.chat__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat__item-1 {
+    position: relative;
+    right: 200px;
+    bottom: 130px;
+}
+
+.chat__span-1:hover {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.chat__item-2 {
+    position: relative;
+    bottom: 70px;
+    padding-bottom: 50px;
+}
+
+.chat__span-2:hover {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.chat__item-3 {
+    position: relative;
+    left: 199px;
+    bottom: 130px;
+}
+
+.chat__span-3:hover {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.chat__menu-box {
+    background-image: url(../images/bgc-img.png);
+    width: 1440px;
+    height: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+}
+
+.chat__box-1 {
+    position: relative;
+    left: 150px;
+    bottom: 100px;
+}
+
+.chat__box-1:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 40px;
+}
+
+.chat__box-2 {
+    position: relative;
+    left: 90px;
+    bottom: 60px;
+}
+
+.chat__box-2:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 40px;
+}
+
+.chat__box-3 {
+    position: relative;
+    left: 65px;
+    bottom: 100px;
+}
+
+.chat__box-3:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 40px;
+}
